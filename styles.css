@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #00bfae, #007bb5); /* Green to Blue gradient */
+  color: #fff; /* White text color for contrast */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centering the form container */
+.container {
+  width: 100%;
+  max-width: 600px; /* Maximum width for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add some shadow for depth */
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+}
+
+/* Heading style */
+h1 {
+  color: #fff; /* White color for heading */
+  margin-bottom: 20px;
+}
+
+/* Paragraph style */
+p {
+  margin-bottom: 20px;
+  color: #ddd; /* Slightly lighter text */
+}
+
+/* Label style */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Input style */
+input[type="number"], select {
+  width: calc(100% - 20px);  /* Ensure full width with some padding */
+  padding: 10px;  /* Add padding for better visual appearance */
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* White background for input fields */
+  color: #333; /* Dark text for inputs */
+  font-size: 16px; /* Same font size for both input and select */
+  box-sizing: border-box; /* Ensures padding and borders don't affect the width */
+}
+
+/* Button style */
+button, .btn {
+  display: inline-block;
+  background-color: #0288d1;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #026fa1;
+}
+
+/* Result section styles */
+.result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+/* Positive result style */
+.positive {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+/* Negative result style */
+.negative {
+  color: #388e3c;
+  font-weight: bold;
+}
+
+/* Error style */
+.error {
+  color: #f44336;
+  font-weight: bold;
+}
+
+/* Styling for select fields */
+select {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;  /* Match font size with input */
+  box-sizing: border-box;  /* Ensures padding and borders don't affect width */
+}
+
+/* Add a slight shadow to the inputs and button to make them stand out */
+input[type="number"], select, button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
